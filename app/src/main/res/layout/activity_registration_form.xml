@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Registration_form">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:hint="Enter your first name" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter last name" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Desired Username" />
+
+    <EditText
+        android:id="@+id/passWord"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Enter password" />
+
+    <EditText
+        android:id="@+id/rePassword"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Re-enter password" />
+
+    <EditText
+        android:id="@+id/emailId"
+        android:layout_width="270dp"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:hint="Enter Valid Email Id(Optional)"/>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="270dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Register" />
+
+</LinearLayout>
